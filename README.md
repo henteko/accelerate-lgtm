@@ -1,5 +1,5 @@
 # LGTMを加速させるChrome拡張
-Githubのissueやプルリクのコメント欄に画面にLGTM.inから取得したランダムな画像のマークダウンを挿入するChrome拡張です  
+Githubのissueやプルリクの画面のコメント欄にLGTM.inから取得したランダムな画像のマークダウンを挿入するChrome拡張です  
 コメント欄のCloseボタンの横にLGTMボタンが出現します  
 これによりLGTMする速度を加速させることが出来ます
 

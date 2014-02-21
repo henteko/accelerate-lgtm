@@ -1,0 +1,16 @@
+{
+  "name": "LGTMを加速させる",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "LGTMを加速させます",
+    "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/issues/*", "https://github.com/*/*/pull/*"],
+      "js": [
+              "jquery.min.js",
+              "main.js"
+            ],
+      "run_at": "document_start"
+    }
+  ]
+}

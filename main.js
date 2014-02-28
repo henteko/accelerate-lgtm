@@ -1,9 +1,9 @@
 $(function() {
-  var $closeButton = $('.js-comment-and-button');
-  if($closeButton.size() > 0) {
+  var $newComment = $('#js-new-comment-form-actions');
+  if($newComment.size() > 0) {
     var $lgtmButton = $('<button/>').attr('class', "button lgtm-button").text('LGTM');
-    $closeButton.before($lgtmButton);
-    var $comment = $closeButton.parent().parent().parent().find('.comment-form-textarea');
+    $newComment.prepend($lgtmButton);
+    var $comment = $newComment.parent().parent().parent().find('.comment-form-textarea');
     $lgtmButton.click(function() {
       var markdown = getLgtm(function(data) {
         var markdown = $(data).find('#markdown').text();
